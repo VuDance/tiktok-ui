@@ -1,0 +1,63 @@
+.wrapper {
+    padding: 16px 8px;
+    position: relative;
+}
+.borderTop {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 0;
+    height: 1px;
+    background: rgba(22, 24, 35, 0.12);
+}
+.title {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 600;
+}
+.item {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out 0s;
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.itemName {
+    display: flex;
+    align-items: center;
+}
+.itemTitle {
+    line-height: 22px;
+    color: rgb(22, 24, 35);
+    font-weight: 700;
+}
+.icon {
+    margin-left: 3px;
+    width: 14px;
+    height: 14px;
+    color: rgb(32, 213, 236);
+}
+.itemDesc {
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.seeAll {
+    color: rgb(254, 44, 85);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}

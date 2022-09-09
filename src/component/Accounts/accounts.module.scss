@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    padding: 9px 16px;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 16px;
+    object-fit: cover;
+}
+.itemTitle {
+    line-height: 22px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #161823;
+}
+.itemDesc {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 400;
+}
